@@ -1,7 +1,7 @@
 (set-env!
   :resource-paths #{"src"}
   :dependencies '[[org.apache.commons/commons-compress "1.9" :scope "test"]
-                  [clj-http "2.2.0" :scope "test"]
+                  [clj-http "3.4.1" :scope "test"]
                   [asset-minifier "0.1.7" :scope "test"]])
 
 (def +version+ "0.6.0")
